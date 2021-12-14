@@ -1,0 +1,143 @@
+@media (max-width: 1450px) {
+  .container {
+    width: 960px;
+  }
+
+  textarea {
+    height:10em;
+  }
+}
+
+@media (max-width: 970px) {
+  .container {
+    width: 540px;
+  }
+  .header__search input {
+    display: none;
+  }
+
+  .main__first-block {
+    flex-wrap: wrap;
+  }
+
+  .main__first-block .first-block__about {
+    flex-basis: calc(100%);
+  }
+  .first-block__images {
+    display: none;
+  }
+  .first-block__images-hidden {
+    display: block;
+  }
+
+  .header__menu {
+    justify-content: flex-end;
+    font-size: 15px;
+  }
+
+  .gallery {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .main__second-block {
+    flex-wrap: wrap;
+  }
+
+  .footer__column:nth-child(2) {
+    display: none;
+  }
+  .footer__column:first-child {
+    flex: 1 1 auto;
+  }
+  .footer {
+    flex-basis: calc(100% / 2);
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 550px) {
+  .container {
+    width: 320px;
+  }
+  .header {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .header__menu {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .header__menu .menu-item {
+    margin: 0;
+  }
+
+  .header__search {
+    display: none;
+  }
+
+  .header__title {
+    margin: 0 0 40px 0;
+  }
+
+  .gallery {
+    display: none;
+  }
+
+  .first-block__about .size__buy {
+    flex-wrap: wrap;
+  }
+  .size__text {
+    margin: 0 0 10px 12px;
+  }
+  .size__blocks {
+    width: 100%;
+    justify-content: space-around;
+    padding: 0 0 10px 0;
+  }
+
+  .first-block__images-hidden {
+    margin: 50px 0 50px 0;
+  }
+
+  .size__buy {
+    width: 100%;
+    justify-content: space-around;
+  }
+  .size__button {
+    margin: 20px auto 0 auto;
+  }
+  .separator {
+    display: none;
+  }
+  .form__adaptive-hidden {
+    display: none;
+  }
+
+  .item {
+    height: 250px;
+    overflow: hidden;
+    flex-basis: calc(100%);
+    position: relative;
+  }
+
+  .item__toCard {
+    padding: 5px 15px;
+    bottom: 0px;
+  }
+
+  .product_text-hidden {
+    display: block;
+  }
+
+  .products__items {
+    justify-content: flex-start;
+  }
+
+  .footer {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
